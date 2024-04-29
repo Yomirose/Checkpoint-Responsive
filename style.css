@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url(images.jpg);
+    color: black;
+    height: 90px;
+}
+
+
+
+header p {
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+nav {
+    margin-top: 30px;
+    margin-left: 90px;
+    padding-right: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+}
+
+header button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 35px;
+    margin-right: 20px;
+    font-size: 15px;
+    width: 15%;
+    height: 40px;
+
+}
+
+.Product-page {
+    background-image: url(beautiful.jpg);
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+}
+
+.product-page-card {
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+
+.Product-page h5 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .product-page-h5 {
+        font-size: 5px;
+        margin-bottom: 30px;
+    }
+}
+
+.Product-page p {
+    font-size: 10px;
+    line-height: 2px;
+}
+
+@media screen and (max-width: 576px) {
+    .product-page p {
+        font-size: 5px;
+        line-height: .5px;
+    }
+}
+
+.Product-page button {
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+.card-group{
+    margin-top: 30px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+}
+
+.card-text{
+    font-weight: 15px;
+}
+
+.mb-3 row {
+    margin-right: 30px;
+}
+
+.icon-bar {
+    background-color: black;
+    color: white;
+}
